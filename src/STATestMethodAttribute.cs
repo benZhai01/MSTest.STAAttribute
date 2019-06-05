@@ -4,11 +4,15 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace MSTest.STATestMethod
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     public class STATestMethodAttribute: TestMethodAttribute
     {
         private readonly TestMethodAttribute _testMethodAttribute;
+
+        public STATestMethodAttribute()
+        {
+        }
 
         public STATestMethodAttribute(TestMethodAttribute testMethodAttribute)
         {

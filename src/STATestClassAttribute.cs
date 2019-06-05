@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MSTest.STATestMethod
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     public class STATestClassAttribute : TestClassAttribute
     {
